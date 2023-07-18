@@ -26,7 +26,6 @@ public class questao02 {
             }
         } else {
             ideal = ((62.1 * altura) - 44.7);
-            System.out.println(ideal);
             if (peso < ideal  - 1) {
                 System.out.println("Abaixo do peso ideal");
             } else {

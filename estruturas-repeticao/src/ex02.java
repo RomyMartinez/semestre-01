@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-public class ex01 {
-    public static void main(String[] args) throws Exception {
+public class ex02 {
+    public static void main(String[] args) {
         float numeros, soma = 0;
+        int contador = 1;
         @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
-        for (int i = 1; i <= 10; i++) {
-            System.out.print("Digite umn número: ");
+        while (contador <= 100) {
+            contador++;
+            System.out.print("Digite um número: ");
             numeros = in.nextFloat();
             soma = numeros + soma;
         }
