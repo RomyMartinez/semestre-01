@@ -16,7 +16,7 @@ public class ex02 {
         nomeMaior = nome;
         nomeMenor = nome;
         total = altura;
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 19; i++) {
             System.out.print("Digite o nome: ");
             nome = in.nextLine();
             System.out.print("Digite a altura: ");
