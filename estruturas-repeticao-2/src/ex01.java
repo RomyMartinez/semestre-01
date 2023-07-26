@@ -5,7 +5,7 @@ public class ex01 {
         int Numeros, TotalPositivo = 0, negativo = 0;
         @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
-        for (int i = 1; i < 20; i++) {
+        for (int i = 1; i <= 20; i++) {
             System.out.print("Digite um numero: ");
             Numeros = in.nextInt();
             if (Numeros > 0) {
@@ -14,7 +14,7 @@ public class ex01 {
                 negativo++;
             }
         }
-        System.out.print("\nSoma dos positivos: " + TotalPositivo);
+        System.out.println("\nSoma dos positivos: " + TotalPositivo);
         System.out.println("Total de negativos: " + negativo);
     }
 }
