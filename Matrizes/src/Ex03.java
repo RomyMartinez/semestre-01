@@ -26,7 +26,7 @@ public class Ex03 {
             }
         }
         do {
-            System.out.println("------ TENTATIVAS: " + tentativas + " ------\n");
+            System.out.println("------ TENTATIVAS: " + tentativas + " ------");
             System.out.print("Digite a linha: ");
             userL = in.nextInt() - 1;
             System.out.print("Digite a coluna: ");
